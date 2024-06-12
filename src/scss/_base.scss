@@ -23,9 +23,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  font-family: assistant, sans-serif;
   font-size: 1rem;
   line-height: 1.25;
+  text-align: center;
 }
 
 a {
@@ -51,6 +52,23 @@ video {
 .row > [class^="col-"] {
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-family: DIEGO, sans-serif;
+  text-transform: uppercase;
+  font-size: 106px;
+  font-weight: 300;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+h2 {
+  font-family: DIEGO, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 36px;
+  text-align: center;
 }

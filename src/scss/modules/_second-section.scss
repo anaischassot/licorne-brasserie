@@ -1,0 +1,58 @@
+.bottle {
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+
+.bottle-button {
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.bottle,
+.bottle-button {
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.bottle p {
+  font-family: DIEGO, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 102px;
+  line-height: 145px;
+}
+
+.bottle-green,
+.bottle-button-green {
+  border-color: #2b552c;
+}
+
+.bottle-green p {
+  color: #39723b;
+}
+
+.bottle-yellow,
+.bottle-button-yellow {
+  border-color: #f0dc01;
+}
+
+.bottle-yellow p {
+  color: #feeb15;
+}
+
+.bottle-rose,
+.bottle-button-rose {
+  border-color: #f04c95;
+}
+
+.bottle-rose p {
+  color: #ed73a9;
+}
+
+.seemore {
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+}

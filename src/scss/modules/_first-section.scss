@@ -1,0 +1,17 @@
+.first-section p {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.values {
+  display: flex;
+  margin: 70px 0;
+}
