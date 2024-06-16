@@ -15,19 +15,65 @@
   </head>
   <body>
     <div class="container">
+      <div class="menu-burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="#bieres">Nos bières</a>
+          </li>
+          <li>
+            <a href="#histoire">Notre histoire</a>
+          </li>
+          <li>
+            <a href="#shop">Shop</a>
+          </li>
+          <li>
+            <a href="#vente">Points de vente</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <img
+        src="../img/background-header.png"
+        alt="Les 3 bouteilles de la brasserie Licorne."
+        class="header-img-bottles"
+      />
       <div class="row header">
         <div class="col-8">
           <img
+            class="header-img-logo"
+            id="top"
             src="../img/logo-licorne-big.svg"
             alt="Logo de la brasserie licorne"
           />
         </div>
-        <div class="offset-2 col-2">colonne 2</div>
+        <div class="offset-2 col-2 header-button-principal">
+          <div>
+            <select id="language" name="header-button-language">
+              <option value="fr">fr</option>
+              <option value="de">de</option>
+              <option value="en">en</option>
+            </select>
+          </div>
+          <div class="header-button-selectors">
+            <img src="../img/logo-user.svg" alt="Icone d'utilisateur." />
+            <img src="../img/logo-shop.svg" alt="Icone d'utilisateur." />
+          </div>
+        </div>
         <div class="col-8">
           <h1>L'art de la bière sans l'ivresse</h1>
         </div>
       </div>
-      <div class="row first-section">
+    </div>
+
+    <div class="container">
+      <div class="row header-intro">
         <div class="offset-1 col-10">
           <h2>
             Bienvenue chez
@@ -48,11 +94,11 @@
             qui anime chaque gorgée !
           </p>
         </div>
-        <div class="values">
+        <div class="header-intro-values">
           <div class="col-4">
             <img src="../img/houblon.svg" alt="Dessin d'houblon." />
           </div>
-          <div class="col-4 logos">
+          <div class="col-4 header-intro-logos">
             <img src="../img/logo-no-alcohol.svg" alt="Logo sans-alcool." />
             <img src="../img/logo-local.svg" alt="Logo local." />
             <img src="../img/logo-artisanal.svg" alt="Logo artisanale." />
@@ -65,59 +111,157 @@
           </div>
         </div>
       </div>
-      <div class="row second-section">
+    </div>
+    <div class="container">
+      <div class="row">
         <div class="col-12"><h2>Nos bières</h2></div>
         <div class="col-4">
-          <div class="bottle bottle-green">
+          <div class="beers-bottle beers-bottle-green">
             <p>Brune Brune Brune Brune</p>
+            <img src="../img/brune.png" alt="Une bière brune." />
+            <div class="beers-bottle-green beers-bottle-invisible">
+              <h3>Brune Dunkel Dark</h3>
+              <h4>Ingrédients</h4>
+              <p class="beers-infos">
+                Eau, malt torréfié d'orge, malt torréfié de blé, houblon
+              </p>
+              <h4>Allergènes</h4>
+              <p class="beers-infos">Gluten</p>
+              <h4>Contenant</h4>
+              <p class="beers-infos">Bouteille en verre de 33cl</p>
+              <p class="beers-price">CHF 4.60 / à l’unité CHF 16 / pack de 4</p>
+            </div>
           </div>
-          <div class="bottle-button bottle-button-green">
+          <div class="beers-bottle-button beers-bottle-button-green">
             <p>Ajouter au panier</p>
           </div>
         </div>
         <div class="col-4">
-          <div class="bottle bottle-yellow">
+          <div class="beers-bottle beers-bottle-yellow">
             <p>Blonde Blonde Blonde Blonde</p>
+            <img src="../img/blonde.png" alt="Une bière blonde." />
+            <div class="beers-bottle-yellow beers-bottle-invisible">
+              <h3>Blonde Helles Blond</h3>
+              <h4>Ingrédients</h4>
+              <p class="beers-infos">
+                Eau, malt d’orge, colorant : E150c, arôme naturel, houblon
+              </p>
+              <h4>Allergènes</h4>
+              <p class="beers-infos">Gluten</p>
+              <h4>Contenant</h4>
+              <p class="beers-infos">Bouteille en verre de 33cl</p>
+              <p class="beers-price">CHF 4.60 / à l’unité CHF 16 / pack de 4</p>
+            </div>
           </div>
-          <div class="bottle-button bottle-button-yellow">
+          <div class="beers-bottle-button beers-bottle-button-yellow">
             <p>Ajouter au panier</p>
           </div>
         </div>
         <div class="col-4">
-          <div class="bottle bottle-rose">
+          <div class="beers-bottle beers-bottle-rose">
             <p>Ipa- gf Ipa- gf Ipa- gf Ipa- gf</p>
+            <img src="../img/ipa.png" alt="Une bière sans gluten." />
+            <div class="beers-bottle-rose beers-bottle-invisible">
+              <h3>Ipa Gluten Free</h3>
+              <h4>Ingrédients</h4>
+              <p class="beers-infos">
+                Houblon agrume, eau, coriandre, malt de seigle
+              </p>
+              <h4>Allergènes</h4>
+              <p class="beers-infos">---</p>
+              <h4>Contenant</h4>
+              <p class="beers-infos">Bouteille en verre de 33cl</p>
+              <p class="beers-price">CHF 4.60 / à l’unité CHF 16 / pack de 4</p>
+            </div>
           </div>
-          <div class="bottle-button bottle-button-rose">
+          <div class="beers-bottle-button beers-bottle-button-rose">
             <p>Ajouter au panier</p>
           </div>
         </div>
-        <div class="col-12"><p class="seemore">Voir le shop</p></div>
+        <div class="col-12"><p class="beers-seemore">Voir le shop</p></div>
       </div>
-      <div class="row third-section">
-        <div class="col-12"><h2>Où nous trouver ?</h2></div>
-        <div class="offset-3 col-6">
-          <p>
-            Découvrez notre salle de dégustation dans la bâtisse médiévale
-            d'Estavayer-le-Lac !
-          </p>
-          <div class="button-visit">Réserver une visite</div>
-        </div>
-        <div class="offset-2 col-8">
-          <img src="../img/map.jpg" alt="Une carte de la map." />
-          <p>
-            CH-1470 Estavayer-Le-Lac, Chemin du Lac 2<br />Sylvain Megroni<br />
-            Licorne
-          </p>
-          <p class="seemore">Voir les points de vente</p>
+    </div>
+    <div class="location-houblon">
+      <div class="container">
+        <div class="row">
+          <div class="col-12"><h2>Où nous trouver ?</h2></div>
+          <div class="offset-3 col-6">
+            <p class="location-subtitle">
+              Découvrez notre salle de dégustation dans la bâtisse médiévale
+              <br />
+              d'Estavayer-le-Lac !
+            </p>
+            <div class="location-button">Réserver une visite</div>
+          </div>
+          <div class="offset-2 col-8">
+            <img src="../img/map.jpg" alt="Une carte de la map." />
+            <p class="location-address">
+              CH-1470 Estavayer-Le-Lac, Chemin du Lac 2<br />Sylvain Megroni<br />
+              Licorne
+            </p>
+            <p class="beers-seemore">Voir les points de vente</p>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12">colonne 16</div>
-        <div class="offset-5 col-2">colonne 17</div>
-        <div class="col-4">colonne 18</div>
-        <div class="col-4">colonne 19</div>
-        <div class="col-4">colonne 20</div>
-        <div class="offset-4 col-4">colonne 21</div>
+    </div>
+    <div class="footerbouteilles">
+      <div class="container">
+        <div class="row footer">
+          <div class="col-12">
+            <h2>Suivez nous sur les réseaux</h2>
+            <div class="footer-socialmedia">
+              <a href="http://www.tiktok.com/brasserie-licorne">
+                <img src="../img/logo-tiktok.svg" alt="Logo Tiktok." />
+              </a>
+              <a href="http://www.instagram.com/brasserie-licorne">
+                <img src="../img/logo-insta.svg" alt="Logo Instagram." />
+              </a>
+            </div>
+          </div>
+          <div class="col-4">colonne 18</div>
+          <div class="col-4">colonne 19</div>
+          <div class="col-4">colonne 20</div>
+          <div class="offset-4 col-4">
+            <h2>Newsletter</h2>
+            <p>Inscrivez-vous pour recevoir des actualités et des offres !</p>
+            <div class="footer-button-newsletter">
+              <div class="footer-button-mail">
+                <input
+                  class="footer-mail"
+                  type="text"
+                  id="mail"
+                  name="mail"
+                  placeholder="Veuillez saisir votre adresse mail"
+                />
+              </div>
+              <div class="footer-button-suscribe">S'inscrire</div>
+            </div>
+            <div class="footer-check">
+              <label>
+                <input
+                  type="checkbox"
+                  class="checkbox"
+                  name="conditions"
+                  value="conditions"
+                />
+                <div class="footer-radio-placeholder"></div>
+                <p>
+                  J’accepte les <span>Conditions générales de vente</span> et la
+                  <span>Politique de Confidentialité</span>
+                </p>
+              </label>
+            </div>
+            <a href="#top">
+              <img
+                src="../img/logo-licorne-small.svg"
+                alt="Logo de la brasserie Licorne."
+              />
+            </a>
+            <p class="footer-copyright">
+              © 2024 Licorne. Tous droits réservés.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <script src="js/main.js" type="module"></script>
