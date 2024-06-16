@@ -1,0 +1,128 @@
+.beers-bottle {
+  margin-bottom: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.beers-bottle-button {
+  padding: 10px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.beers-bottle-button:hover {
+  font-weight: 500;
+}
+
+.beers-bottle-button-green:hover {
+  background-color: #39723b;
+}
+
+.beers-bottle-button-yellow:hover {
+  background-color: #feeb15;
+}
+
+.beers-bottle-button-rose:hover {
+  background-color: #ed73a9;
+}
+.beers-bottle,
+.beers-bottle-button {
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.beers-bottle p {
+  font-family: DIEGO, sans-serif;
+  font-weight: 300;
+  font-size: 102px;
+  line-height: 145px;
+}
+
+.beers-bottle img,
+.beers-bottle-invisible {
+  position: absolute;
+  inset: 1;
+}
+
+.beers-bottle-green,
+.beers-bottle-button-green {
+  border-color: #2b552c;
+}
+
+.beers-bottle-green p {
+  color: #39723b;
+}
+
+.beers-bottle-yellow,
+.beers-bottle-button-yellow {
+  border-color: #f0dc01;
+}
+
+.beers-bottle-yellow p {
+  color: #feeb15;
+}
+
+.beers-bottle-rose,
+.beers-bottle-button-rose {
+  border-color: #f04c95;
+}
+
+.beers-bottle-rose p {
+  color: #ed73a9;
+}
+
+.beers-bottle-invisible {
+  padding: 30px 90px;
+  top: 0;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: transform 0.5s;
+}
+
+.beers-bottle-invisible p {
+  font-family: Assistant;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: none;
+  color: #000;
+}
+
+.beers-bottle-invisible .beers-price {
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 35px;
+}
+
+.beers-bottle-green.beers-bottle-invisible {
+  background-color: #39723b;
+}
+
+.beers-bottle-yellow.beers-bottle-invisible {
+  background-color: #feeb15;
+}
+
+.beers-bottle-rose.beers-bottle-invisible {
+  background-color: #ed73a9;
+}
+
+.beers-bottle:hover .beers-bottle-invisible {
+  transform: translateY(0);
+}
+
+.beers-seemore {
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 40px;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.beers-seemore:hover {
+  font-size: 27px;
+}
+
+.beers-bottle-button,
+.beers-seemore {
+  text-transform: uppercase;
+  font-size: 25px;
+}
