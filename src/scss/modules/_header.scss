@@ -1,0 +1,74 @@
+.header-intro p {
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+
+.header-img-logo {
+  z-index: 4;
+  transition: transform 0.2s;
+}
+
+.header-button-principal,
+.header-button-selectors,
+.header-intro-logos,
+.header-intro-values {
+  display: flex;
+}
+
+.header-button-selectors,
+.header-img-bottles {
+  position: absolute;
+}
+
+.header-button-selectors {
+  justify-content: end;
+  gap: 20px;
+  left: 100px;
+  top: 23px;
+}
+
+.header-intro-logos {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-intro-values {
+  margin: 70px 0;
+}
+
+.header,
+.header-button-principal {
+  position: relative;
+}
+
+.header-img-bottles {
+  width: 30%;
+  top: 0;
+  right: 700px;
+  z-index: 5;
+}
+
+@media (max-width: 2000px) {
+  .header-img-bottles {
+    width: 50%;
+    right: 120px;
+  }
+}
+
+.header-intro-logos img {
+  animation: changeWidth 1s linear infinite;
+}
+
+.header-intro-logos img:nth-child(2) {
+  animation-delay: 2s;
+}
+
+@keyframes changeWidth {
+  0% {
+    scale: 1;
+  }
+
+  50% {
+    scale: 1.1;
+  }
+}
