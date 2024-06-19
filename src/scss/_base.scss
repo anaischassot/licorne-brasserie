@@ -1,11 +1,4 @@
 /* ====================================
-// css variables
-// ==================================== */
-
-:root {
-}
-
-/* ====================================
 // reset rules
 // ==================================== */
 
@@ -17,6 +10,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -27,7 +21,6 @@ body {
   font-size: 1rem;
   line-height: 1.25;
   text-align: center;
-  scroll-behavior: smooth;
 }
 
 a {
@@ -97,4 +90,14 @@ select {
   text-align: start;
   padding: 5px 10px;
   border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  z-index: 5;
+  transition: transform 0.2s;
+}
+
+select:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }

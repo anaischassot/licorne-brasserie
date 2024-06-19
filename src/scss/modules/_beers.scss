@@ -25,6 +25,7 @@
 .beers-bottle-button-rose:hover {
   background-color: #ed73a9;
 }
+
 .beers-bottle,
 .beers-bottle-button {
   border: 2px solid;
@@ -33,6 +34,7 @@
 
 .beers-bottle p {
   font-family: DIEGO, sans-serif;
+  text-transform: uppercase;
   font-weight: 300;
   font-size: 102px;
   line-height: 145px;
@@ -72,11 +74,14 @@
 }
 
 .beers-bottle-invisible {
-  padding: 30px 90px;
+  padding: 30px 100px;
   top: 0;
   bottom: 0;
+  right: 0;
+  left: 0;
   transform: translateY(100%);
   transition: transform 0.5s;
+  width: 100%;
 }
 
 .beers-bottle-invisible p {
@@ -125,4 +130,9 @@
 .beers-seemore {
   text-transform: uppercase;
   font-size: 25px;
+}
+
+.beers-seemore:hover,
+.beers-bottle-button:hover {
+  cursor: pointer;
 }

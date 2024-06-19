@@ -16,6 +16,10 @@
   pointer-events: none;
 }
 
+.menu-burger:hover {
+  cursor: pointer;
+}
+
 .menu-burger,
 .menu {
   position: fixed;
@@ -84,4 +88,5 @@
 .menu a:hover {
   border: 1px solid #000;
   padding: 0 10px;
+  padding-top: 5px;
 }
