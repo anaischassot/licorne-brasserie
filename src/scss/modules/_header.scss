@@ -56,16 +56,16 @@
 }
 
 .header-img-bottles {
-  width: 30%;
+  width: 47%;
   top: 0;
-  right: 700px;
+  right: 165px;
   z-index: 5;
 }
 
-@media (max-width: 2000px) {
+@media (min-width: 2000px) {
   .header-img-bottles {
-    width: 30%;
-    right: 630px;
+    width: 28%;
+    right: 740px;
   }
 }
 
