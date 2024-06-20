@@ -62,6 +62,13 @@
   z-index: 5;
 }
 
+@media (max-width: 2000px) {
+  .header-img-bottles {
+    width: 30%;
+    right: 630px;
+  }
+}
+
 .header-intro-logos img {
   animation: changeWidth 1s linear infinite;
 }
